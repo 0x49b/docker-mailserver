@@ -1,4 +1,4 @@
-FROM mysql:9.1
+FROM mysql:26.7
 LABEL maintainer="jeff@ressourcenkonflikt.de"
 
 ENV MYSQL_DATABASE=mailserver \
